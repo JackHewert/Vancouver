@@ -145,6 +145,14 @@ h3 {
 	color: darksalmon;
 }
 
+h4 {
+	color: darkcyan;
+}
+
+aside li {
+	color: #427ac1;
+}
+
 p {
 	margin-bottom: 18px;
 	color: darkgoldenrod;
@@ -153,6 +161,7 @@ p {
 footer p {
 	color: white;
 }
+
 
 /* layout */
 
@@ -227,6 +236,11 @@ article img {
 .image-container {
 	width: 70%;
 	margin: 0 auto;
+}
+
+footer div {
+	padding-bottom: 1rem;
+	border: #427ac1 1px;
 }
 
 footer {
