@@ -238,6 +238,10 @@ article img {
 	margin: 0 auto;
 }
 
+aside p {
+	color: blueviolet;
+}
+
 footer div {
 	padding-bottom: 1rem;
 	border: #427ac1 1px;
