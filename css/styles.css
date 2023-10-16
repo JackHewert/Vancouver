@@ -238,6 +238,54 @@ article img {
 	margin: 0 auto;
 }
 
+/* CSS for the ad container */
+.ad {
+	max-width: 150%;
+	/* Ensure the ad does not exceed its original size */
+	text-align: center;
+	/* Center the ad horizontally */
+	margin: 20px 0;
+	/* Add some space around the ad */
+}
+
+/* CSS for the ad image */
+.ad img {
+	width: 100%;
+	/* Make sure the ad image fills its container */
+	height: auto;
+	/* Maintain the aspect ratio of the image */
+	border: 2px solid #ccc;
+	/* Add a border around the ad image */
+	border-radius: 10px;
+	/* Optional: Add border-radius for rounded corners */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	/* Optional: Add a subtle box shadow for depth */
+}
+
+/* CSS for the ad-2 container */
+.ad-2 {
+	max-width: 25%;
+	/* Ensure the ad does not exceed its original size */
+	text-align: center;
+	/* Center the ad horizontally */
+	margin: 20px 0;
+	/* Add some space around the ad */
+}
+
+/* CSS for the ad-2 image */
+.ad-2 img {
+	width: 100%;
+	/* Make sure the ad image fills its container */
+	height: auto;
+	/* Maintain the aspect ratio of the image */
+	border: 2px solid #4CAF50;
+	/* Add a green border around the ad image */
+	border-radius: 10px;
+	/* Optional: Add border-radius for rounded corners */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	/* Optional: Add a subtle box shadow for depth */
+}
+
 aside p {
 	color: blueviolet;
 }
