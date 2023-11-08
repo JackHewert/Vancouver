@@ -25,7 +25,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Murecho:wght@400;600&display=swap"
 		rel="stylesheet">
-
+	<script src="js/cookies.js" defer></script>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/print.css" media="print">
@@ -54,7 +54,10 @@
 			<!-- &#9776; is the Entity Code for the hamburger icon -->
 		</div>
 	</div>
-
+	<div id="cookiePopup" class="hide">
+		<p>This website uses cookies to ensure you get the best experience on our website.</p>
+		<button id="acceptCookie">Accept</button>
+	</div>
 
 	<header>
 		<div class="header-bg-wrap"> <!-- Image as content not design -->
@@ -81,23 +84,34 @@
 				</div>
 				<h3>Entering the coast</h3>
 				<p>
-					Along the western coast of British Columbia, Vancouver's coastal getaway. It
-					The invitation goes out to all within our city to join in on thrilling adventures to getaway, to
-					escape within the coastal getaway of Vancouver.
-					By offering a wide range of experiences, Vancouver showcases its breathtaking scenery and
-					adventurous spirit.
-					activities. Seeking peaceful strolls through historical landmarks within the coast, trekking might
-					appeal to novices to getaway.
-					Find solace they do, whether a devoted follower of divinity food, an ardent fan of rainforests, or a
-					traveler searching for somewhere novel.
-					An assortment of marvels awaits those visiting the Vancouver coastal hideaway. With
-					With beautiful coastlines, landscapes, forests, and mountains offer an ideal combination of natural
-					splendor.
-					Where hiking boots must be worn before becoming lost amongst its impressive outdoor attractions to
-					getaway from the big city to discover panoramic views. Unexplored horizons and untamed natural
-					beauty await for
-					those who embark upon ventures across the Pacific Ocean;
-					this coastal paradise.
+					Vancouver's coastal getaway beckons with a promise of unheard of reports, inviting residents and
+					guests alike to get away the regular and include the super. Nestled alongside the scenic western
+					coast of British Columbia, this coastal paradise offers a sanctuary for the ones searching for
+					solace and journey amidst nature's wonders.
+
+					For records enthusiasts, the coastal hideaway of Vancouver unveils a tapestry of historic landmarks
+					ready to be explored. Walking within the footsteps of the past, site visitors can immerse themselves
+					in the memories of indigenous cultures, early settlers, and maritime explorers. The appeal of these
+					ancient websites is not simply within the testimonies they tell however additionally in the
+					tranquilly they offer, making them ideal spots for peaceful strolls and contemplation.
+
+					Novice trekkers and pro hikers alike discover their sanctuary amidst Vancouver's coastal landscapes.
+					The city's surroundings boast an array of trails catering to diverse talent degrees, allowing
+					enthusiasts to wander thru lush rainforests, overcome rugged mountains, and trace the contours of
+					picturesque coastlines. With every step, hikers are rewarded with panoramic perspectives, serene
+					seashores, and the soothing sounds of the Pacific Ocean, developing an immersive enjoy that lingers
+					inside the reminiscence.
+
+					Food aficionados are in for a deal with in Vancouver's coastal paradise, wherein a divine culinary
+					journey awaits. The vicinity's bountiful offerings consist of clean seafood immediately from the
+					ocean, regionally sourced elements, and progressive gastronomic creations that tantalize the flavor
+					buds. From beach eateries serving the seize of the day to upscale eating places crafting culinary
+					masterpieces, every meal becomes a satisfying party of the senses.
+
+					Nature lovers can delve into the heart of the rainforests, discovering the secrets and techniques of
+					ancient trees, vibrant flowers, and elusive natural world. Vancouver's coastal hideaway is a haven
+					for ecotourism, in which travellers can embark on guided excursions, birdwatching expeditions, and
+					marine adventures to witness the untamed splendor of the Pacific Ocean and its population.
 				</p>
 			</article>
 			<article>
@@ -108,21 +122,31 @@
 						</div> <!-- End of the image container -->
 						<h3>Tourist Getaway</h3>
 						<p>
-							Come explore captivating destinations await those willing to explore Vancouver's diverse
-							cultural tapestry. Venerable sanctuaries of learning and artifactual treasures, these
-							acclaimed museums welcome visitors on an absorbing quest through the complex mosaic of
-							Vancouver's storied cultural identity. Upon entering those revered halls, an adventure
-							unfolds; diving deep into the city coastal's rich past, marveling at its thriving artistic
-							heritage,
-							and garnering comprehensive understanding of its varied ethnic composition. Over centuries,
-							Vancouver's museums serve as a living example of the coastal city's growth and development,
-							thanks
-							to those who contributed to it. Unwinding the coastal city of Vancouver requires
-							examining each institution through the lens of time.
+							In the heart of Vancouver, a treasure trove of cultural stories awaits those curious souls
+							who are trying to find to resolve the town's rich historical past. Museums in Vancouver are
+							not simply repositories of artifacts; they're portals to the beyond, supplying site visitors
+							a chance to embark on a captivating journey via time. These venerable institutions stand as
+							guardians of the city's records, artwork, and cultural variety, inviting guests to discover
+							the multifaceted layers which have shaped Vancouver into the colourful city it is today.
+
+							As you step into these hallowed halls, you're transported returned in time, immersing your
+							self within the narratives of indigenous peoples who've referred to as this land home for
+							millennia. The museums in Vancouver meticulously hold and exhibit the traditions, artistry,
+							and information of the First Nations, presenting profound insights into their deep reference
+							to the herbal world and their enduring have an effect on on the town's cultural tapestry.
+
+							Moreover, Vancouver's museums additionally have fun the metropolis's evolution into a
+							melting pot of cultures. From the early pioneers and immigrants who shaped its foundations
+							to the cutting-edge artists and visionaries who keep to redefine its identification, these
+							museums provide a window into the diverse ethnic composition that defines Vancouver today.
+							Through carefully curated exhibits and interactive shows, traffic can benefit a
+							comprehensive know-how of the metropolis's multicultural background, fostering a feel of
+							appreciation for the unity in diversity that makes Vancouver genuinely particular.
+
 
 						</p>
 					</div> <!-- End of the first inner container -->
-					<div class="ad"><img src="ads/image 1.png" alt="ad 1"></div>
+
 
 					<div class="inner-container"> <!-- Second inner container -->
 						<div class="image-container">
@@ -130,16 +154,32 @@
 						</div> <!-- End of the image container -->
 						<h3>Vancouver's Amazing Cusine Choices</h3>
 						<p>
-							Vancouver, it effortlessly dangles a tempting selection of food spots catering to every
-							single palette. Come on and venture with us in
-							In this article, we take off on a mouthwatering journey through Vancouver's rich and varied
-							culinary landscape.
-							Feast your senses on this spread that includes a mix of various Asian tastes combined in an
-							unorthodox style. Also available are pleasing seafood dishes, and a vast multitude of unique
-							gastronomical adventures. These include food vans, in addition to beachside family.
-							Vancouver showcases a myriad of eating options, ranging from humble street food stalls all
-							the way up to posh dining establishments. In short, you're bound to find just about any
-							cuisine your palate might crave in this culinary hotspot.
+							Indeed, Vancouver's culinary scene is as numerous as its population, offering a delightful
+							fusion of flavours and culinary traditions from round the world. The town's colourful food
+							way of life reflects its multiculturalism, with a big range of dining alternatives that
+							cater to various tastes and options. From the bustling streets covered with food vans
+							supplying delectable bites to the upscale restaurants serving connoisseur dishes,
+							Vancouver's meals scene is a paradise for food fans.
+
+							One of the standout features of Vancouver's culinary panorama is its emphasis on sparkling
+							and domestically sourced components. With the Pacific Ocean at its doorstep, the metropolis
+							boasts an abundance of extremely good seafood, inclusive of succulent salmon, plump
+							Dungeness crab, and sweet spot prawns. Seafood fans can take pleasure in a culinary
+							adventure, savouring dishes organized with the most up to date catches, whether it is a
+							traditional fish and chips by means of the waterfront or exquisitely crafted sushi in one of
+							the town's many Japanese restaurants.
+
+							Additionally, Vancouver takes pleasure in its farm-to-table motion, in which farm-sparkling
+							produce, artisanal cheeses, and natural meats find their way into the menus of modern
+							eateries and comfortable cafes. This emphasis on neighborhood and sustainable substances not
+							best complements the flavours of the dishes but additionally contributes to the town's
+							eco-aware dining subculture. Whether you're exploring the meals markets, sampling dishes
+							from diverse ethnic cuisines, or enjoying a quality dining enjoy with a view of the scenic
+							landscapes, Vancouver's culinary offerings are a true mirrored image of the town's
+							gastronomic creativity and determination to culinary excellence. So, prepare your flavor
+							buds for a culinary journey like no different, as Vancouver invitations you to have fun with
+							the arena on a plate on this gastronomic paradise.
+
 						</p>
 					</div> <!-- End of the second inner container -->
 				</div> <!-- End of the outer container -->
@@ -151,17 +191,29 @@
 				</div>
 				<h3>Hiking Spots </h3>
 				<p>
-					With hiking, Vancouver showcases an unparalleled combination of natural splendor and urban
-					convenience within the city or in the coastal view outside of the city. Between the ocean and
-					mountains lies this city, granting access to multiple hiking
-					paths for every type of outdoorsperson to getaway. From relaxed meanders through picturesque urban
-					green
-					spaces. At popular hiking spots like Grouse Mountain, Cypress Provincial Park, and Lynn Canyon Park,
-					one can marvel at the stunning views of the city skyline, untouched forests, tumbling waterfalls,
-					and glassy lakes. Showcasing Pacific Northwest's ecological marvels within walking distance of
-					bustling urban Vancouver is a true hiker's haven known as Vancouver.
+
+					Vancouver's hiking scene is a testament to the metropolis's dedication to retaining its natural
+					wonders while embracing the city lifestyle. The various array of trekking trails within and around
+					the city caters to each type of out of doors enthusiast, making it a haven for nature fanatics. What
+					sets Vancouver aside is its seamless integration of pristine natural splendour and current
+					convenience. Within minutes from the bustling town centre, hikers can locate themselves immersed
+					inside the tranquilly of historical forests, status beside cascading waterfalls, or gazing at the
+					city's glittering skyline from a mountain top. This specific juxtaposition of untouched desolate
+					tract and cosmopolitan residing creates an remarkable experience for hikers, imparting them a threat
+					to escape the urban hustle and bustle with out venturing too a long way from the metropolis.
+
+					Moreover, Vancouver's hiking trails no longer handiest exhibit the breathtaking beauty of the
+					Pacific Northwest but also serve as a testament to the metropolis's commitment to environmental
+					conservation. With a focus on sustainable tourism and responsible outside activities, the metropolis
+					guarantees that those natural wonders are preserved for destiny generations to revel in. Hikers can
+					discover the various ecosystems, spot native natural world, and enjoy the serenity of the first rate
+					outdoors, all while being aware of the sensitive stability between people and nature. Vancouver's
+					hiking trails, with their scenic vistas and ecological richness, offer greater than just a bodily
+					adventure; they offer a profound connection to the environment, fostering a deep appreciation for
+					the wonders of the herbal international.
 				</p>
 			</article>
+			<div class="ad"><img src="ads/image 1.png" alt="ad 1"></div>
 		</section><!-- end of content -->
 		<aside>
 			<div>
@@ -173,7 +225,6 @@
 			</div>
 		</aside>
 	</main>
-
 	<footer>
 		<div class="bg-container">
 			<h5>Explore The art side:</h5>
@@ -200,6 +251,7 @@
 				</li>
 
 			</ol>
+			<a href="privacy.txt">privacy.txt</a>
 			<p>
 				*** Legal Information ***
 
