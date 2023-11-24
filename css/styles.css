@@ -376,7 +376,19 @@ footer a:hover, a:active {
 
 }
 
-/* -- End of Code for the Cookie Compliance popover window -- */
+
+
+/* Media query for larger screens */
+@media screen and (min-width: 600px) {
+	.new img {
+		display: block;
+		/* Display images as block elements to place them vertically on larger screens */
+		margin-right: 0;
+		/* Remove right margin to eliminate the gap between images when arranged vertically */
+		margin-bottom: 10px;
+		/* Add bottom margin to create a gap between images when arranged vertically */
+	}
+}
 
 @media only screen and (min-width:900px) {
 
