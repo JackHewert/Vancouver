@@ -238,6 +238,10 @@ article img {
 	margin: 0 auto;
 }
 
+.review p a {
+	color: #333;
+}
+
 /* CSS for the ad container */
 .ad {
 	max-width: 150%;
